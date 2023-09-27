@@ -1,0 +1,74 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 62px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #decdcd;
+}
+
+/* Hero section styles */
+.hero {
+  background-size: cover;
+  text-align: center;
+  padding: 142px 0;
+  color: #6d0909;
+}
+
+.hero h2 {
+  font-size: 37px;
+  margin-bottom: 22px;
+}
+
+.hero p {
+  font-size: 19px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 11px 22px;
+  background-color: #ff6600;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #e18484;
+  text-align: center;
+  padding: 11px 0;
+}
